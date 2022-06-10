@@ -727,6 +727,7 @@ body {
 
 }
 
+.cart .main .menu ul .product:hover,
 .cart .main .menu ul .heart-no:hover,
 .cart .main .menu ul .heart-yes:hover {
     opacity: 0.75;
@@ -756,6 +757,7 @@ body {
     padding: 9px;
     top: 0px;
     left: 0px;
+    z-index: 99;
 }
 
 .cart .main .menu .heart-no.active {
@@ -770,6 +772,7 @@ body {
     padding: 9px;
     top: 0px;
     left: 0px;
+    z-index: 99;
 }
 
 .cart .main .menu .heart-yes.active {
