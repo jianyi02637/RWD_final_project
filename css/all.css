@@ -653,9 +653,9 @@ body {
 
 .cart .main .search .bar .search-btn {
     padding: 6.5px 10px;
-    border-radius: 0;
     background-color: #3D1101;
     border-radius: 0;
+    line-height: 1;
 }
 
 .cart .main .search .bar .search-btn:hover {
@@ -893,6 +893,10 @@ body {
 
     .cart .main .search .checkout a:last-child {
         padding-right: 0;
+    }
+
+    .cart .main .search .checkout span {
+        right: -4px;
     }
 
     .cart .aside {
