@@ -1145,7 +1145,7 @@ body {
 
 }
 
-@media (max-width:640px) {
+@media (max-width:414px) {
     .register .wrap .container {
         margin: 0 10px;
     }
